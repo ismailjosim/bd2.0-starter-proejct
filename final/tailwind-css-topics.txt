@@ -1,0 +1,100 @@
+🚀 What is tailwind CSS?
+    Tailwind CSS is a utility-first CSS framework used for building UI components
+
+🚀 why tailwind CSS?
+🚀 different between custom CSS vs tailwind CSS?
+🚀 installation
+🚀 get started
+🚀 using apply for custom class: @apply
+
+🚀 layout
+    🔥 container
+    🔥 display
+    🔥 object-fit
+    🔥 overflow
+    🔥 Position
+    🔥 top/right/bottom/left
+    🔥 visibility
+    🔥 z-index
+
+🚀 Flex box
+    🔥 flex
+    🔥 flex-direction
+    🔥 flex-grow
+    🔥 flex-order
+
+🚀 Grid layout
+    🔥 grid
+    🔥 grid template Columns
+    🔥 grid gap
+
+🚀 Alignment
+    🔥 Justify content
+    🔥 Justify Items
+    🔥 Justify Self
+    🔥 Align Content
+    🔥 Align Items
+    🔥 Align Self
+
+🚀 Spacing
+    🔥Padding
+    🔥Margin
+    🔥Space between
+
+🚀 Sizing
+    🔥width
+    🔥min-width
+    🔥max-width
+    🔥height
+    🔥min-height
+    🔥max-height
+
+🚀 typography
+    🔥 Font Family
+    🔥 Font Size
+    🔥 Font Style
+    🔥 Font Weight
+    🔥 Letter Spacing
+    🔥 Line Height
+    🔥 Text Alignment
+    🔥 Text Color
+    🔥 Text Opacity
+    🔥 Text Decoration
+    🔥 Text Transform
+
+🚀 backgrounds
+    🔥 Background Image
+    🔥 Background Color
+    🔥 Background Opacity
+    🔥 Background Position
+    🔥 Background Repeat
+    🔥 Background Size
+    🔥 Gradient Color
+
+🚀 border
+    🔥 Border Radius
+    🔥 Border Width
+    🔥 Border Color
+    🔥 Border Opacity
+    🔥 Border Style
+
+🚀 effects
+    🔥Box Shadow
+    🔥Opacity
+
+🚀 Transitions and animation
+    🔥 Transition Property
+    🔥 Transition Duration
+    🔥 Transition Timing Function
+    🔥 Transition Delay
+
+🚀 transforms
+    🔥 Transform
+    🔥 Transform Origin
+    🔥 Scale
+    🔥 Rotate
+    🔥 Translate
+
+🚀 Pseudo class and element (hover, group-hover, active)
+
+🚀 Create a simple section with tailwind CSS

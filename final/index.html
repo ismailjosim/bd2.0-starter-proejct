@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Welcome to Bangladesh 2.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .custom-flex {
+            @apply flex justify-between items-center;
+        }
+    </style>
+    <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FA8405",
+                        "secondary": "#FFF",
+                        "body": "#191718",
+                        "accent": "#FBC0A8",
+                        "rgb": "rgba(18, 18, 18, 0.60)"
+                    },
+                    fontFamily: {
+                        'Poppins': 'Poppins'
+                    },
+                    backgroundImage: {
+                        'team': "url('./assets/team.png')",
+                        'footer-texture': "url('/img/footer-texture.png')",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-body font-Poppins">
+    <header class="w-screen h-screen text-secondary">
+        <nav class="container mx-auto flex justify-between items-center py-10">
+            <a class="flex gap-2 items-end" href="#">
+                <img src="./images/logo.png" alt="" />
+                <span class="text-4xl font-semibold">BD2.0</span>
+            </a>
+            <ul class="hidden sm:flex justify-center items-center gap-10 text-xl">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Contributors</a></li>
+                <li>
+                    <a class="bg-primary px-5 py-3 rounded-md text-[#191718] font-semibold" href="#">Donate</a>
+                </li>
+            </ul>
+            <p class="sm:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </p>
+        </nav>
+        <section class="container mx-auto grid grid-cols-2 justify-between ">
+            <div class="pt-36">
+                <h1 class="text-6xl font-bold leading-tight">
+                    Experience a journey of a thousand miles with just a single
+                    page
+                </h1>
+                <p class="text-lg w-2/3 my-10 text-slate-300 capitalize">
+                    join us exploring the most exciting adventures from the world you
+                    have ever felt before
+                </p>
+                <div class="flex gap-10">
+                    <button class="bg-primary text-black font-semibold px-10 py-3 rounded-md border border-primary">Get
+                        Started</button>
+                    <button
+                        class="flex gap-2 text-lg items-center font-semibold px-5 py-3 border rounded-md hover:bg-primary hover:border-primary hover:text-black">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z" />
+                        </svg>
+
+                        <span>Learn More</span>
+                    </button>
+                </div>
+                <div class="flex items-center mt-20 gap-5">
+                    <h3 class="font-semibold pr-5 border-r-2">Contributors:</h3>
+
+                    <div class="flex justify-center items-center gap-5 opacity-50">
+                        <div class="">
+                            <img class="w-1/2" src="./images/brand-01.png" alt="" />
+                        </div>
+                        <div class="">
+                            <img class="w-1/2" src="./images/brand-02.png" alt="" />
+                        </div>
+
+                        <div class="">
+                            <img class="w-1/2" src="./images/brand-03.png" alt="" />
+                        </div>
+                        <div class="">
+                            <img class="w-1/2" src="./images/brand-04.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <img class="w-2/3 absolute -bottom-36 right-0 -z-10" src="./images/bg-banner.png" alt="" />
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
